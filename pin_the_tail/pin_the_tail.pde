@@ -37,7 +37,7 @@ if(mousePressed){
   
 }
 image(tail,x,y);
-//if(x>=434 && x<=474 && y>=55 && y<=95){
+if(x>=434 && x<=474 && y>=55 && y<=95){
  if (playSound) {
      woohooSound.trigger();
      playSound = false;
